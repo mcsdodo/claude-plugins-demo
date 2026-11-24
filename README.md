@@ -23,7 +23,7 @@ To pull updates later:
 
 ### Claude desktop app
 
-Download `weird-greetings.plugin` from the [Releases](../../releases) page and open it, or add the repo as a marketplace if your app supports custom marketplaces.
+Zip the contents of `plugins/weird-greetings/` into a file named `weird-greetings.plugin` and open it in the app, or add the repo as a marketplace if your app supports custom marketplaces.
 
 ## Repository layout
 
