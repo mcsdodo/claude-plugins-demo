@@ -2,7 +2,10 @@
 
 A tiny demo of sharing Claude skills through a GitHub repository that works as a **plugin marketplace**.
 
-It contains one plugin, `weird-greetings`, with one skill: say "Hi" in any language and Claude answers with a totally weird movie quote.
+It contains one plugin, `weird-greetings`, with two skills:
+
+- **weird-movie-greeting**: say "Hi" in any language and Claude answers with a totally weird movie quote.
+- **dramatic-farewell**: say "Bye" in any language and Claude exits like it is the tragic finale of an epic stage play.
 
 ## Install
 
@@ -13,7 +16,7 @@ It contains one plugin, `weird-greetings`, with one skill: say "Hi" in any langu
 /plugin install weird-greetings@mcsdodo-plugins
 ```
 
-Then start a new session and type `Hi`, `Ahoj`, `Hola` or `こんにちは`.
+Then start a new session and type `Hi`, `Ahoj`, `Hola` or `こんにちは`. When you are done, type `Bye`, `Dovidenia` or `さようなら`.
 
 To pull updates later:
 
@@ -36,8 +39,10 @@ claude-plugins-demo/
 │       ├── .claude-plugin/
 │       │   └── plugin.json       # Plugin manifest
 │       └── skills/
-│           └── weird-movie-greeting/
-│               └── SKILL.md      # The skill itself
+│           ├── weird-movie-greeting/
+│           │   └── SKILL.md      # Greeting skill
+│           └── dramatic-farewell/
+│               └── SKILL.md      # Goodbye skill
 └── README.md
 ```
 
