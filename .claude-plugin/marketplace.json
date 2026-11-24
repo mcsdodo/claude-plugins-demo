@@ -1,0 +1,24 @@
+{
+  "name": "mcsdodo-plugins",
+  "owner": {
+    "name": "Jozef Lačný",
+    "url": "https://github.com/mcsdodo"
+  },
+  "metadata": {
+    "description": "Demo marketplace showing how to share Claude skills through a GitHub repo",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "weird-greetings",
+      "source": "./plugins/weird-greetings",
+      "description": "Answers any greeting, in any language, with a totally weird movie quote",
+      "version": "0.1.0",
+      "author": {
+        "name": "Jozef Lačný"
+      },
+      "keywords": ["demo", "fun", "greetings", "movies"],
+      "category": "fun"
+    }
+  ]
+}

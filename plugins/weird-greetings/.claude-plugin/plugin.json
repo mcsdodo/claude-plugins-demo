@@ -1,0 +1,13 @@
+{
+  "name": "weird-greetings",
+  "version": "0.1.0",
+  "description": "Answers any greeting, in any language, with a totally weird movie quote",
+  "author": {
+    "name": "Jozef Lačný",
+    "url": "https://github.com/mcsdodo"
+  },
+  "homepage": "https://github.com/mcsdodo/claude-plugins-demo",
+  "repository": "https://github.com/mcsdodo/claude-plugins-demo",
+  "license": "MIT",
+  "keywords": ["demo", "fun", "greetings", "movies"]
+}
